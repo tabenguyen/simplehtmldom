@@ -1,0 +1,19 @@
+{
+    "name": "tabenguyen/simplehtmldom",
+    "license": "MIT",
+    "keywords": ["crawler", "php", "htmlsimpledom"],
+    "authors": [
+        {
+            "name": "Tabe Nguyen",
+            "email": "tabenguyen@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-0": { "Tabenguyen\\Simplehtmldom\\HtmlDomParser": "src/" }
+    }
+}
